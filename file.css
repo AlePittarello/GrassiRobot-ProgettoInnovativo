@@ -23,8 +23,8 @@ body {
 .FirstStory {
     top: 25px;
     left: 25px;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 50px;
     background-color: orangered;
     font-family: Arial;
     color: white;
@@ -36,8 +36,8 @@ body {
 .SecondStory {
     top: 10px;
     right: 10px;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 50px;
     background-color: blue;
     font-family: Arial;
     color: white;
@@ -49,8 +49,8 @@ body {
 .ThirdStory {
     bottom: 10px;
     left: 0;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 50px;
     background-color: orangered;
     font-family: Arial;
     color: white;
@@ -62,8 +62,8 @@ body {
 .FourthStory {
     bottom: 10px;
     right: 10px;
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 50px;
     background-color: blue;
     font-family: Arial;
     color: white;
