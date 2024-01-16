@@ -1,10 +1,8 @@
-.body 
-{
+body {
     margin: 0;
 }
 
-.header
-{
+.header {
     background-color: darkgrey;
     font-size: 24px;
     font-family: Arial;
@@ -13,8 +11,7 @@
     text-align: center;
 }
 
-.aside 
-{
+.aside {
     background-color: darkgrey;
     font-size: 24px;
     font-family: Arial;
@@ -23,11 +20,10 @@
     text-align: center;
 }
 
-.FirstStory 
-{
-    position:absolute;
-    top: 10;
-    left: 10;
+.FirstStory {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     width: auto;
     height: auto;
     background-color: orangered;
@@ -38,11 +34,10 @@
     border-radius: 10px; 
 }
 
-.SecondStory 
-{
-    position:absolute;
-    top: 10;
-    right: 10;
+.SecondStory {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     width: auto;
     height: auto;
     background-color: blue;
@@ -53,10 +48,9 @@
     border-radius: 10px; 
 }
 
-.ThirdStory 
-{
-    position:absolute;
-    bottom: 10;
+.ThirdStory {
+    position: absolute;
+    bottom: 10px;
     left: 0;
     width: auto;
     height: auto;
@@ -68,11 +62,10 @@
     border-radius: 10px; 
 }
 
-.FourhStory 
-{
-    position:absolute;
-    bottom: 10;
-    right: 10;
+.FourthStory {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     width: auto;
     height: auto;
     background-color: blue;
