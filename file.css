@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+p{
+    font: impact, black;
+}
+
+.navbar {
+    background-color: #ff0000;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+
+}
+
+.content {
+    /* Regola il punto da cui il sito parte per evitare che */
+    /* il testo e la barra di navigazione si sovrappongano subito */
+    margin-top: 60px;
+
+    /* Altri stili per il contenuto del CV */
+}
+
+h1 {
+    font: Arial;
+    float: left;
+    max-width: 40%;
+    margin-top: 80px;
+    font-size: 120%;
+    background-color: rgb(0, 160, 0);
+}
