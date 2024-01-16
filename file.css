@@ -21,9 +21,8 @@ body {
 }
 
 .FirstStory {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 25px;
+    left: 25px;
     width: auto;
     height: auto;
     background-color: orangered;
