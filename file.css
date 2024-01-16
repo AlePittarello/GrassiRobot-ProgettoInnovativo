@@ -34,7 +34,6 @@ body {
 }
 
 .SecondStory {
-    position: absolute;
     top: 10px;
     right: 10px;
     width: auto;
@@ -48,7 +47,6 @@ body {
 }
 
 .ThirdStory {
-    position: absolute;
     bottom: 10px;
     left: 0;
     width: auto;
@@ -62,7 +60,6 @@ body {
 }
 
 .FourthStory {
-    position: absolute;
     bottom: 10px;
     right: 10px;
     width: auto;
