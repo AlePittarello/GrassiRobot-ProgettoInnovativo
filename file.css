@@ -2,8 +2,10 @@ body {
     margin: 0;
 }
 
-div.img {
-  background-image: url('https://github.com/AlePittarello/GrassiRobot-ProgettoInnovativo/blob/main/1705430445288.png');
+img {
+    width: 100%;
+    heght: auto;
+    border: 1px solid #ccc;
 }
 
 .header {
