@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background-color: darkgrey;
+    background-color: #00008B;
     font-size: 24px;
     font-family: Arial;
     color: black;
@@ -12,7 +12,7 @@ body {
 }
 
 .aside {
-    background-color: darkgrey;
+    background-color: #00008B;
     font-size: 24px;
     font-family: Arial;
     color: black;
