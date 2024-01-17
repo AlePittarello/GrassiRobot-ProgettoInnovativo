@@ -27,12 +27,11 @@ img {
 }
 
 .FirstStory {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 200px;
-    margin-rigth: 25px;
-    width: 100px;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
     background-color: orange;
     font-family: Arial;
     color: white;
@@ -42,12 +41,11 @@ img {
 }
 
 .SecondStory {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 300px;
-    margin-rigth: 200px;
-    width: 100px;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
     background-color: red;
     font-family: Arial;
     color: white;
