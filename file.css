@@ -4,11 +4,16 @@ body {
 
 img {
     width: 100%;
-    heght: auto;
+    height: auto;
     border: 1px solid #ccc;
+    left: 20;
 }
 
-.header {
+.header, .aside, .footer, .FirstStory, .SecondStory {
+    width: 100%;
+}
+
+.header, .aside{
     background-color: DarkBlue;
     font-size: 24px;
     font-family: Arial;
@@ -17,50 +22,36 @@ img {
     text-align: center;
 }
 
-.aside {
-    background-color: DarkBlue;
-    font-size: 24px;
-    font-family: Arial;
-    color: LightBlue;
-    padding: 10px;
-    text-align: center;
-}
-
-.FirstStory {
+.FirstStory, .SecondStory {
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 100px;
+    width: 20%;
+    height: 10%;
+}
+
+.FirstStory {
     background-color: orange;
-    font-family: Arial;
     color: white;
-    text-align: center;
     border: 4px solid orange;
     border-radius: 10px; 
-
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 20%;
     transform: translate(0, -50%);
 }
 
 .SecondStory {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 100px;
     background-color: red;
-    font-family: Arial;
     color: white;
-    text-align: center;
     border: 4px solid red;
     border-radius: 10px; 
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    transform: translate(0, -50%);
 }
 
 .footer {
@@ -70,25 +61,8 @@ img {
     color: red;
     padding: 10px;
     text-align: center;
-
-    .FirstStory {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 100px;
-    background-color: orange;
-    font-family: Arial;
-    color: white;
-    text-align: center;
-    border: 4px solid orange;
-    border-radius: 10px; 
-
-    position: absolute;
-    top: 0%;
-    right: 0;
-    transform: translate(0, 0);
-}
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
 }
